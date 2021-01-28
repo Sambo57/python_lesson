@@ -57,5 +57,4 @@
 #######   Random number   #######
 
 # import random
-
 # print(random.randrange(23, 100))
