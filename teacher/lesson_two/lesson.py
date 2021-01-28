@@ -15,21 +15,22 @@
 # y = 15
 # print(x + y)
 
-# x = "5"
-# y = 5
-# print(x + y)
+#x = "5"
+#y = 5
+#print(x + y)
 
 # Global variables
 
-# x = "Salom" # x global o'zgaruvchi hisoblanadi
+x = "salom"
 
-# def myFuncOne():
-#     print(x + " Farhod")
+def myFuncOne():
+    print(x + " Farhod")
 
-# def myFuncTwo():
-#     global x
-#     x = "Hello"
-#     print(x + " Farhod")
+def myFuncTwo():
+    global x
+    x = "Hello"
+    print(x + " Farhod")
+
 
 # myFuncOne()
 # myFuncTwo()
