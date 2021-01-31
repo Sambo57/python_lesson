@@ -21,19 +21,7 @@
 
 # Global variables
 
-x = "salom"
 
-def myFuncOne():
-    print(x + " Farhod")
-
-def myFuncTwo():
-    global x
-    x = "Hello"
-    print(x + " Farhod")
-
-
-# myFuncOne()
-# myFuncTwo()
 
 # print(x)
 

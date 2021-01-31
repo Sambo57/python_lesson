@@ -79,14 +79,13 @@ status = True
   #  print("Javobi: " + str(c))
 #else:
  #   print("Xatolik:")        
-#x = "Salom" 
- #x global o'zgaruvchi hisoblanadi
+# x = "Salom" 
 
-#def myFuncOne():
- #   print(x + " Farhod")
+# # x = "o'zgaruvchi hisoblanadi"
 
-#def myFuncTwo():
- #   global x
-    
+# def myFuncOne():
+#    print(x + " Farhod")
 
-  #  print(x + " Farhod")
+# def myFuncTwo():
+#     global x
+#     print(x + " Farhod")
