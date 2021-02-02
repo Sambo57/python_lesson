@@ -109,19 +109,17 @@
 ##############   Escape Characters
 ###################################################
 
-s = 'Bu gapda "kuchli" mantiq bor'
-d = "Bu gapda ma'no y'oq" 
-f = "Bu slash \\ belgisi"
-g = "Qator 1 \nyangi qator"
-h = "Qator 1 \rqator boshi"
-j = "Bu yerda \t tab bor"
-k = "Bu yerda \btab bor"
+# s = 'Bu gapda \"kuchli\" mantiq bor'
+# d = "Bu gapda ma\'no yo'\q" 
+# f = "Bu slash \\ belgisi"
+# g = "Qator 1 \nyangi qator"
+# h = "Qator 1 \rqator boshi"
+# j = "Bu yerda \t tab bor"
 
 
-
-print(k)
-print(j)
-print(f)
-print(g)
-print(d)
-print(s)
+# print(s)
+# print(d)
+# print(f)
+# print(g)
+# print(h)
+# print(j)
