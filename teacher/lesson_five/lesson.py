@@ -35,7 +35,7 @@
 # print(bool(["apple", "cherry", "banana"]))
 
 
-#######   Some Values are False   #######
+#######   Most Values are True   #######
 
 # print(bool(False))
 # print(bool(None))
