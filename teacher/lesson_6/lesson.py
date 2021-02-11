@@ -9,7 +9,7 @@
 ####################################################
 
 
-fruits = ["apple", "banana", "cherry"]
+# fruits = ["apple", "banana", "cherry"]
 # print(fruits)
 
 # Ordered
@@ -37,5 +37,5 @@ fruits = ["apple", "banana", "cherry"]
 
 # print(type(fruits))
 
-newList = list(("apple", "banana", "cherry"))
-print(newList)
+# newList = list(("apple", "banana", "cherry"))
+# print(newList)
