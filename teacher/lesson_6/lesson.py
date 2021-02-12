@@ -37,5 +37,5 @@
 
 # print(type(fruits))
 
-# newList = list(("apple", "banana", "cherry"))
-# print(newList)
+newList = list(("apple", "banana", "cherry"))
+print(newList)

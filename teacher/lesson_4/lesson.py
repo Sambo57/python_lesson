@@ -14,7 +14,7 @@
 
 #######   Looping through a string   #######
 
-# a = "Apple is so juicy fruit!"
+a = "Apple is so juicy fruit!"
 
 # print(a[0])
 # print(a[1])
@@ -22,8 +22,8 @@
 # print(a[3])
 # print(a[4])
 
-# for item in a:
-#     print(item)
+for item in a:
+    print(item)
 
 
 #######   String length   #######
