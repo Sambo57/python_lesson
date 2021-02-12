@@ -253,9 +253,9 @@
 
 ########33 String lstrip() #######33333
 
-txt = "       banana           "
-x = txt.lstrip()
-print("of all fruits", x, "is my favorite")
+# txt = "       banana           "
+# x = txt.lstrip()
+# print("of all fruits", x, "is my favorite")
 
 # txt = ",,,,,ssaaww.....banana"
 # x = txt.lstrip(",.asw")
@@ -321,3 +321,152 @@ print("of all fruits", x, "is my favorite")
 # txt = "Mi casa, su casa"
 # x = txt.rindex("casa")
 # print(x)
+
+######## String rjust() ##########
+
+# txt = "banana"
+# x = txt.rjust(20)
+# print(x, "is my favorite fruit")
+
+# txt = "banana"
+# x = txt.rjust(20, 0)
+# print(x)
+
+########## String rpartition() #########33
+
+# txt = "I could eat bananas all day, bananas are my favorite fruit"
+# x = txt.rpartition("bananas")
+# print(x)
+
+# txt = "I could eat bananas all day, bananas are my favorite fruit"
+# x = txt.rpartition("apples")
+# print(x)
+
+######## String rsplit() ##########
+
+# txt = "apple, banana, cherry"
+# x = txt.rsplit(",")
+# print(x)
+
+# txt = "apple, banana, cherry"
+# x = txt.rsplit(",", 1)
+# print(x)
+
+####### String split() ############3
+
+# txt = "welcome to the jungle"
+# x = txt.split()
+# print(x)
+
+# txt = "hello, my name is Peter, I am 27  years old"
+# x = txt.split(",   ")
+# print(x)
+
+# txt = "apple#banana#cherry#orange"
+# x = txt.split("#")
+# print(x)
+
+# txt = "apple#banana#cherry#orange"
+# x = txt.split("#",1)
+# print(x)
+
+
+########### String splitlines() ###########333
+
+# txt = "Thank you for the music\nWelcome to the jungle"
+# x = txt.splitlines()
+# print(x)
+
+# txt = "Thank you for the music\nWelcome to the jungle"
+# x = txt.splitlines(True)
+# print(x)
+
+
+########## String startswith() ##############
+
+# txt = "Hello, welcome to my world."
+# x = txt.startswith("Hello")
+# print(x)
+
+# txt = "Hello, welcome to my world."
+# x = txt.startswith("wel", 7, 20)
+# print(x)
+
+#########3 String strip() #############
+
+# txt = "            banana          "
+# x = txt.strip()
+# print("of all fruits", x, "is my favorite")
+
+# txt = ",,,,,,,,rrttgg.....banana....rrr"
+# x = txt.strip(",.grt")
+# print(x)
+
+##########3 String swapcase() ##########33
+
+# txt = "Hello My Name Is PETER"
+# x = txt.swapcase()
+# print(x)
+
+########3 String title() ########3333
+
+# txt = "Welcome to my world"
+# x = txt.title()
+# print(x)
+
+# txt = "Welcome to my 2nd world"
+# x = txt.title()
+# print(x)
+
+# txt = "hello b2b2b2 and 3g3g3g"
+# x = txt.title()
+# print(x)
+
+############## String translate() ##########3
+
+# mydict = {67: 40}
+# txt = "Hello Sam!"
+# print(txt.translate(mydict))
+
+# txt = "Hello Sam!"
+# mytable = txt.maketrans("S", "P")
+# print(txt.translate(mytable))
+
+# txt = "Hi Sam!"
+# x = "mSa"
+# y = "eJo"
+# mytable = txt.maketrans(x, y)
+# print(txt.translate(mytable))
+
+# txt = "Good night Sam!"
+# x = "mSa"
+# y = "eJo"
+# z = "odnght"
+# mytable = txt.maketrans(x, y, z)
+# print(txt.translate(mytable))
+
+# txt = "Goog night Sam!"
+# mydict = {109: 101, 83: 74, 97: 111, 111: None, 100: None, 110: None, 103: None, 104: None, 116: None}
+# print(txt.translate(mydict))
+
+
+###########33 String upper() ###########3
+
+# txt = "Hello my Friends"
+# x = txt.upper()
+# print(x)
+
+
+############## String zfill() ###########3
+
+# txt = "50"
+# x = txt.zfill(5)
+# print(x)
+
+a = "hello"
+b = "welcome to the jungle"
+c = "10.000"
+
+print(a.zfill(10))
+print(b.zfill(10))
+print(c.zfill(10))
