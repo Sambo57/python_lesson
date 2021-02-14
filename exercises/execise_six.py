@@ -218,6 +218,37 @@
 # print(fruits)
 
 ############3 List sort() #############
-cars = ["Ford", "BMW", "Kamaz"]
-cars.sort()
+
+# cars = ["Ford", "BMW", "Kamaz"]
+# cars.sort()
+# print(cars)
+
+# cars = ["Ford", "BMW", "Volvo"]
+# cars.sort(reverse=True)
+# print(cars)
+
+# def myFunction(e):
+#     return len(e)
+
+# cars = ["Ford","Miysubishi", "BMW", "VW"]
+# cars.sort(key=myFunction)
+# print(cars)
+
+# def myFunc(e):
+#     return e["year"]
+
+# cars = [
+#     {"car": "Ford", "year": 2005},
+#     {"car": "Mitshubishi", "year": 2000},
+#     {"car": "BMW", "year": 2019},
+#     {"cae": "VW" , "year": 2011}
+# ]
+# cars.sort(key=myFunc)
+# print(cars)
+
+def myFunc(e):
+    return len(e)
+
+cars = ["Ford", "Mitsubishi", "BMW", "VW"]
+cars.sort(reverse=True, key=myFunc)
 print(cars)
