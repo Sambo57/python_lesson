@@ -626,10 +626,280 @@
 # del thisdict
 # print(thisdict)
 
-thisdict = {
-    "brand": "Ford",
-    "model": "Mustang",
-    "year": 1964
+# thisdict = {
+#     "brand": "Ford",
+#     "model": "Mustang",
+#     "year": 1964
+# }
+# thisdict.clear()
+# print(thisdict)
+
+############## Loop Dictionaries ###############33
+
+# thisdict = {
+#     "brand": "Ford",
+#     "model": "Mustang",
+#     "year" : 1964
+# }
+# for x in thisdict:
+#     print(x)
+
+# thisdict = {
+#     "brand": "Ford",
+#     "model": "Mustang",
+#     "year" : 1964
+# }
+# for x in thisdict:
+#     print(thisdict[x])
+
+# thisdict = {
+#     "brand": "Ford",
+#     "model": "Mustang",
+#     "year" : 1964
+# }
+# for x in thisdict.values():
+#     print(x)
+
+# thisdict = {
+#     "brand": "Ford",
+#     "model": "Mustang",
+#     "year" : 1964
+# }
+# for x in thisdict.keys():
+#     print(x)
+
+# thisdict = {
+#     "brand": "Ford",
+#     "model": "Mustang",
+#     "year" : 1964
+# }
+# for x, y in thisdict.items():
+#     print(x, y)
+
+############## Copy Dictionaries #############
+
+# thisdict = {
+#     "brand": "Ford",
+#     "model": "Mustang",
+#     "year": 1964
+# }
+# mydict = thisdict.copy()
+# print(mydict)
+
+# thisdict = {
+#     "brand": "Ford",
+#     "model": "Mustang",
+#     "year": 1964
+# }
+# mydict = dict(thisdict)
+# print(mydict)
+
+############### Nested Dictionaries ############
+
+# myfamily = {
+#     "child1" : {
+#       "name" : "Muslim",
+#       "year" : 2014
+#     },
+#     "child2" : {
+#       "name" : "Soliha",
+#       "year" : 2017
+#     },
+#     "child3" : {
+#       "name" : "Muhammad",
+#       "year" : 2019
+#     }
+# }
+# print(myfamily)
+
+# child1 = {
+#     "name" : "Emil",
+#     "year" : 2000
+# }
+# child2 = {
+#     "name" : "Tobias",
+#     "year" : 2003
+# }
+# child3 = {
+#     "name" : "Linus",
+#     "year" : 2011
+# }
+# myfamily = {
+#     "child1" : child1,
+#     "child2" : child2,
+#     "child3" : child3
+# }
+# print(myfamily)
+
+############# Dictionary Methods ################3
+#################################################
+
+############## Clear() #########################
+
+# car = {
+#     "brand" : "Ford",
+#     "model" : "Mustang",
+#     "year"  : 1964 
+#  }
+# car.clear()
+# print(car)
+
+################ Copy() ###############33
+
+# car = {
+#     "brand" : "Ford",
+#     "model" : "Mustang",
+#     "year"  : 1964 
+#  }
+# car.copy()
+# print(car)
+
+############# Fromkeys() ###############3
+
+# x = ('key1', 'key2', 'key3')
+# y = 0
+# thisdict = dict.fromkeys(x, y)
+# print(thisdict)
+
+# x = ('key1', 'key2', 'key3')
+# thisdict = dict.fromkeys(x)
+# print(thisdict)
+
+############### Get() ###############3
+
+# car = {
+#     "brand" : "Ford",
+#     "model" : "Mustang",
+#     "year"  : 1964
+# }
+# x = car.get("model")
+# print(x)
+
+# car = {
+#     "brand" : "Ford",
+#     "model" : "Mustang",
+#     "year"  : 1964
+# }
+# x = car.get("price", 15000)
+# print(x)
+
+############# Items() ##############
+
+# car = {
+#     "brand" : "Ford",
+#     "model" : "Mustang",
+#     "year"  : 1964
+# }
+# x = car.items()
+# print(x)
+
+# car = {
+#     "brand" : "Ford",
+#     "model" : "Mustang",
+#     "year"  : 1964
+# }
+# x = car.items()
+# car["year"] = 2018
+# print(x)
+
+################# Keys() ###############33
+
+# car = {
+#     "brand" : "Ford",
+#     "model" : "Mustang",
+#     "year"  : 1964
+# }
+# x = car.keys()
+# print(x)
+
+# car = {
+#     "brand" : "Ford",
+#     "model" : "Mustang",
+#     "year"  : 1964
+# }
+# x = car.keys()
+# car["color"] = "white"
+# print(x)
+
+##############3 Pop() ##############3
+
+# car = {
+#     "brand" : "Ford",
+#     "model" : "Mustang",
+#     "year"  : 1964
+# }
+# car.pop("model")
+# print(car)
+
+# car = {
+#     "brand" : "Ford",
+#     "model" : "Mustang",
+#     "year"  : 1964
+# }
+# x = car.pop("model")
+# print(x)
+
+############### Popitem() ##############
+
+# car = {
+#     "brand" : "Ford",
+#     "model" : "Mustang",
+#     "year"  : 1964
+# }
+# car.popitem()
+# print(car)
+
+# car = {
+#     "brand" : "Ford",
+#     "model" : "Mustang",
+#     "year"  : 1964
+# }
+# x = car.popitem()
+# print(x)
+
+###############3 Setdefault() ################
+
+# car = {
+#     "brand" : "Ford",
+#     "model" : "Mustang",
+#     "year"  : 1964
+# }
+# x = car.setdefault("model", "Bronco")
+# print(x)
+
+# car = {
+#     "brand" : "Ford",
+#     "model" : "Mustang",
+#     "year"  : 1964
+# }
+# x = car.setdefault("color", "white")
+# print(x)
+
+################## Update() ###################3
+
+# car = {
+#     "brand" : "Ford",
+#     "model" : "Mustang",
+#     "year"  : 1964
+# }
+# car.update({"color": "White"})
+# print(car)
+
+############## Values() ############3
+
+car = {
+    "brand" : "Ford",
+    "model" : "Mustang",
+    "year"  : 1964
 }
-thisdict.clear()
-print(thisdict)
+x = car.values()
+print(x)
+
+car = {
+    "brand" : "Ford",
+    "model" : "Mustang",
+    "year"  : 1964
+}
+x = car.values()
+car["year"] = 2018
+print(x)
