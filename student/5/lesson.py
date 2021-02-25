@@ -246,8 +246,8 @@
 # sum += numbers[5]
 # print(sum) 
 
-numbers = [ 7564,45454,534343]
-sum = 0
-for number in numbers:
-    sum += number
-print(sum)
+# numbers = [ 7564,45454,534343]
+# sum = 0
+# for number in numbers:
+#     sum += number
+# print(sum)

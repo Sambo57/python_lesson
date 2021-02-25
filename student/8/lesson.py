@@ -11,10 +11,10 @@
 # x.difference_update(y) 
 # print(x)
 
-x = {"a", "b", "c"}
-y = {"f", "e", "d", "c", "b", "a"}
-z = x.issubset(y)
-w =y.issuperset(x)
+# x = {"a", "b", "c"}
+# y = {"f", "e", "d", "c", "b", "a"}
+# z = x.issubset(y)
+# w =y.issuperset(x)
 
-print(w)
-print(z)
+# print(w)
+# print(z)

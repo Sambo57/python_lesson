@@ -63,12 +63,12 @@
 # print(newFruits)
 # print(newFruits is fruits)
 
-allGPA = [4.0, 0.5, 2.5, 1.0, 3.5]
-LowGPA = allGPA.copy()
+# allGPA = [4.0, 0.5, 2.5, 1.0, 3.5]
+# LowGPA = allGPA.copy()
 
-for gpa in LowGPA:
-    if gpa > 3:
-        LowGPA.remove(gpa)
+# for gpa in LowGPA:
+#     if gpa > 3:
+#         LowGPA.remove(gpa)
 
-print(allGPA)
-print(LowGPA)
+# print(allGPA)
+# print(LowGPA)

@@ -887,19 +887,19 @@
 
 ############## Values() ############3
 
-car = {
-    "brand" : "Ford",
-    "model" : "Mustang",
-    "year"  : 1964
-}
-x = car.values()
-print(x)
+# car = {
+#     "brand" : "Ford",
+#     "model" : "Mustang",
+#     "year"  : 1964
+# }
+# x = car.values()
+# print(x)
 
-car = {
-    "brand" : "Ford",
-    "model" : "Mustang",
-    "year"  : 1964
-}
-x = car.values()
-car["year"] = 2018
-print(x)
+# car = {
+#     "brand" : "Ford",
+#     "model" : "Mustang",
+#     "year"  : 1964
+# }
+# x = car.values()
+# car["year"] = 2018
+# print(x)

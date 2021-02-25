@@ -101,6 +101,6 @@
 # print(thislist)
 
 
-thislist = ["apple", "banana", "cheery"]
-thislist.clear()
-print(thislist)
+# thislist = ["apple", "banana", "cheery"]
+# thislist.clear()
+# print(thislist)
