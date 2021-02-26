@@ -217,10 +217,9 @@
 #     pass
 
 
-#############################################3
-############# Inheritance #################3##
+nl = []
+for x in range(1500, 2701):
+    if (x%7==0) and (x%5==0):
+        nl.append(str(x))
+print(','.join(nl))
 
-
-age = 34
-txt = "My name is John and I am {}"
-print(txt.format(age))

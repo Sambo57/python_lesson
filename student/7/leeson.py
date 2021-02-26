@@ -72,3 +72,7 @@
 
 # print(allGPA)
 # print(LowGPA)
+
+
+x = range(1, 10)
+print(x)  
