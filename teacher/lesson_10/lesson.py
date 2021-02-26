@@ -100,4 +100,3 @@
 
 # doubler = myfunc(5) # lambda a : a * 5
 # print(doubler(7))
-
