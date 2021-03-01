@@ -17,15 +17,15 @@
 ################################# 2 #############################
 
 
-# temp = input("input the temperature you like to convert? (e.g., 45F, 102C etc.) :")
+# temp = input("input the temperature you like to convert? (e.g., 45F, 102C etc.) : ")
 # degree = int(temp[:-1])
 # i_convertion = temp[-1]
 
 # if i_convertion.upper() == "C":
-#     result = int(round((9 * degree) / 5 + 32))
+#     result = round((9 * degree) / 5 + 32)
 #     o_convertion = "Fahrenheit"
 # elif i_convertion.upper() == "F":
-#     result = int(round((degree -32) * 5 / 9))
+#     result = round((degree -32) * 5 / 9)
 #     o_convertion = "Celsius"
 # else:
 #     print("Input proper convention.")
@@ -153,9 +153,9 @@
 ################# 12 #######################3
 
 
-models = [{'make' : 'Nokia', 'model' : 216, 'color' : 'Black'}, {'make' : 'Mi Max', 'model' : '2', 'color' : 'Gold'}, {'make': 'Samsung', 'model': 7, 'color' : 'Blue'}]
-print("Orginal list if dictionaries :")
-print(models)
-sorted_models = sorted(models, key = lambda x: x['color'])
-print("\nSorting the list of dictionaries :")
-print(sorted_models)
+# models = [{'make' : 'Nokia', 'model' : 216, 'color' : 'Black'}, {'make' : 'Mi Max', 'model' : '2', 'color' : 'Gold'}, {'make': 'Samsung', 'model': 7, 'color' : 'Blue'}]
+# print("Orginal list if dictionaries :")
+# print(models)
+# sorted_models = sorted(models, key = lambda x: x['color'])
+# print("\nSorting the list of dictionaries :")
+# print(sorted_models)
