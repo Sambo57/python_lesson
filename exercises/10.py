@@ -48,16 +48,16 @@
 
 
 
-# n=5;
-# for i in range(n):
-#     for j in range(i):
-#         print ('* ', end="")
-#     print('')
+n=7
+for i in range(n):
+    for j in range(i):
+        print ('* ', end="")
+    print('')
 
-# for i in range(n,0,-1):
-#     for j in range(i):
-#         print('* ', end="")
-#     print('')
+for i in range(n,0,-1):
+    for j in range(i):
+        print('* ', end="")
+    print('')
 
 
 ###################### 5 ######################3
@@ -153,9 +153,9 @@
 ################# 12 #######################3
 
 
-models = [{'make' : 'Nokia', 'model' : 216, 'color' : 'Black'}, {'make' : 'Mi Max', 'model' : '2', 'color' : 'Gold'}, {'make': 'Samsung', 'model': 7, 'color' : 'Blue'}]
-print("Orginal list if dictionaries :")
-print(models)
-sorted_models = sorted(models, key = lambda x: x['color'])
-print("\nSorting the list of dictionaries :")
-print(sorted_models)
+# models = [{'make' : 'Nokia', 'model' : 216, 'color' : 'Black'}, {'make' : 'Mi Max', 'model' : '2', 'color' : 'Gold'}, {'make': 'Samsung', 'model': 7, 'color' : 'Blue'}]
+# print("Orginal list if dictionaries :")
+# print(models)
+# sorted_models = sorted(models, key = lambda x: x['color'])
+# print("\nSorting the list of dictionaries :")
+# print(sorted_models)
