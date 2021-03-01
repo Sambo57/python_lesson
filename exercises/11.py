@@ -204,4 +204,4 @@
 # print( "%s %s" % (color_list[0], color_list[-1]))  Saytdagi javobi
 
 # exam_start_date = (12,10,2018)
-# print( "The examination will start from : %i / %i / %i" % exam_start_date)
+# print("The examination will start from : %i / %i / %i" % exam_start_date)
