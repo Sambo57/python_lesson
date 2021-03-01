@@ -69,57 +69,11 @@
 # print(','. join(nl))
 
 
-# print("""Twinkle, twinkle, little star,
-# 	How I wonder what you are! 
-# 		Up above the world so high,   		
-# 		Like a diamond in the sky. 
-# Twinkle, twinkle, little star, 
-# 	How I wonder what you are""")
-
-
-
-
-
-# print("Twinkle, twinkle, little star, \n\tHow I wonder what you are! \n\t\tUp above the world so high, \n\t\tLike a diamond in the sky. \nTwinkle, twinkle, little star, \n\tHow I wonder what you are!")
-
 # nl = []
 # for x in range(1566, 3000):
 #     if(x %7 ==0) and (x %5 == 0):
 #         nl.append(str(x))
 # print(','.join(nl))
-
-# import sys
-# print(sys.version)        
-
-# import sys
-# print("Python version")
-# print (sys.version)
-# print("Version info.")
-# print (sys.version_info)
-
-# import datetime
-# m = datetime.datetime.now()
-# print(m)
-
-
-# import math
-# class circle():
-#     def __init__(self, radius):
-#         self.radius = radius
-#     def area(self):
-#         return math.pi * (self.radius**2)
-#     def perimeter(self):
-#         return 2 * math.pi * self.radius
- 
-# r = int(input("Введите радиус круга: "))
-# obj = circle(r)
-# print("Площадь круга:", round(obj.area(), 2))
-# print("Длина окружности:", round(obj.perimeter(), 2))
-
-# from math import pi
-# r = int(input ("Input the radius of the circle : "))
-# print ("The area of the circle with radius " + str(r) + " is: " + str(pi * r**2))
-
 
 
 # sonlar = [1, 2, 3, 4, 5, 6, 7, 8, 9,]
@@ -141,49 +95,87 @@
 # print(','.join(nl))
 
 
-# import sys
-# print(sys.version)
-
-# import datetime
-# now = datetime.datetime.now()
-# print(now)
-
-# from math import pi
-# r = float(input("radiusni kiriting: "))
-# print("The area of the circle with radius" + str (r) + "is" + str (pi * r **2))
-
-# fname = input("Familiyangizni kiriting: ")
-# iname = input("Ismingizni kiriting: ")
-# print("Assalamu alaykum " + fname + " " + iname)
-
-
-# nameUser = input("Ismingizni kiriting: ")
-# cityUser = input("Shahringizning kiring: ")
-# print("Sizning ismingiz {0}. Sizning Shahringizning {1}.".format(nameUser, cityUser))
+################### 5 ###################
 
 # res = input("Nechta apelsinni bor? ")
 # rrrf = input("Bitta apelsinni narxi qancha? ")
-
-
-
-################### 5 ###################
 
 # res = int(res)
 # rrrf = float(rrrf)
 # sum = res * rrrf           
 # print("Narxini to'lang", sum, "so'm")
 
-# fname = input("Input your First Name : ")  
-# lname = input("Input your Last Name : ")
-# print ("Hello  " + lname + " " + fname) Saytdai javobi!
 
+
+##################   1   #######################
+
+# print("""Twinkle, twinkle, little star,
+# 	How I wonder what you are! 
+# 		Up above the world so high,   		
+# 		Like a diamond in the sky. 
+# Twinkle, twinkle, little star, 
+# 	How I wonder what you are""")
+
+# print("Twinkle, twinkle, little star, \n\tHow I wonder what you are! \n\t\tUp above the world so high, \n\t\tLike a diamond in the sky. \nTwinkle, twinkle, little star, \n\tHow I wonder what you are!")
+
+
+####################   2   #######################
+
+# import sys
+# print(sys.version)        
+
+# import sys
+# print("Python version")
+# print (sys.version)
+# print("Version info.")
+# print (sys.version_info)
+
+
+####################   3   #######################
+
+# import datetime
+# now = datetime.datetime.now()
+# print(now.strftime("%Y-%m-%d %H:%M:%S"))
+
+
+####################   4   #######################
+
+# import math
+# class circle():
+#     def __init__(self, radius):
+#         self.radius = radius
+#     def area(self):
+#         return math.pi * (self.radius ** 2)
+#     def perimeter(self):
+#         return 2 * math.pi * self.radius
+ 
+# r = int(input("Введите радиус круга: "))
+# obj = circle(r)
+# print("Площадь круга:", round(obj.area(), 2))
+# print("Длина окружности:", round(obj.perimeter(), 2))
+
+# from math import pi
+# r = int(input ("Input the radius of the circle : "))
+# print("The area of the circle with radius " + str(r) + " is: " + str(pi * r ** 2))
+
+
+####################   5   #######################
+
+# fname = input("Ismingizni kiriting: ")
+# lname = input("Familiyangizni kiriting: ")
+# print("Assalamu alaykum " + lname + " " + fname)
+
+# nameUser = input("Ismingizni kiriting: ")
+# cityUser = input("Shahringizning kiring: ")
+# print("Sizning ismingiz {0}. Sizning Shahringizning {1}.".format(nameUser, cityUser))
 
 
 ################### 6 ####################
 
 # user_input = input("ltimos, vergul bilan ajratilgan raqamlar ro'yxatini keltiring, masalan 1, 2, 3, 4: ")
-# a_list = list(map(float,user_input.split(',')))
-# print(a_list)
+# a_list = user_input.split(',')
+# a_tuple = tuple(a_list)
+# print(a_list, a_tuple)
 
 
 # values = input("Input some comma seprated numbers : ")
@@ -193,19 +185,23 @@
 # print('Tuple : ',tuple)
 
 
+####################### 7 ###########################
+
+# fileName = input("Enter file name: ")
+# fileInfo = fileName.split('.')
+# print(fileInfo[-1])
+
 
 ####################### 8 ###########################
 
 # color_list = ["Red", "Green", "White", "Black"]
 # print(color_list[0], color_list[-1])
+# print("{} {}".format(color_list[0], color_list[-1]))
+# print("%s %s" % (color_list[0], color_list[-1]))
 
 
 # list = ["Red","Green","White" ,"Black"]
-# print( "%s %s"%(color_list[0],color_list[-1]))  Saytdagi javobi
+# print( "%s %s" % (color_list[0], color_list[-1]))  Saytdagi javobi
 
-exam_start_date = (12,10,2018)
-print( "The examination will start from : %i / %i / %i"%exam_start_date)
-
-
-
-
+# exam_start_date = (12,10,2018)
+# print( "The examination will start from : %i / %i / %i" % exam_start_date)
